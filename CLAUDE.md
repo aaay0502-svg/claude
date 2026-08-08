@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Status
 
-This repository is currently empty — it contains no source code, build configuration, or documentation yet. This CLAUDE.md was created as the repository's first file.
+This repository is currently empty — it contains no source code, build configuration, or documentation yet. This CLAUDE.md is the repository's only file (state re-verified 2026-08-08).
 
 ## Guidance for Future Sessions
 
