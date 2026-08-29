@@ -1,0 +1,20 @@
+/* 共通スタイル（各図解HTMLから読み込み） */
+:root{
+  --surface:#FBF7F2; --card:#FFFFFF; --line:#E9DFD5;
+  --ink:#3A332E; --ink2:#7A6F66; --ink3:#A79C90;
+  --coral:#D9603F; --teal:#0A8CA8; --gold:#A87718;
+  --coral-t:#F8E2D9; --teal-t:#DCEEF2; --gold-t:#F1E5CB;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:"IPAPGothic","IPA Pゴシック",sans-serif;
+  background:var(--surface); color:var(--ink);
+  width:1280px; height:720px; overflow:hidden; padding:48px 56px;
+  display:flex; flex-direction:column;
+}
+.kicker{font-size:15px;letter-spacing:.18em;color:var(--coral);font-weight:bold;margin-bottom:8px}
+h1{font-size:34px;letter-spacing:.03em;line-height:1.35;margin-bottom:6px}
+.sub{font-size:16px;color:var(--ink2);line-height:1.6}
+.card{background:var(--card);border:1.5px solid var(--line);border-radius:16px}
+.foot{margin-top:auto;padding-top:14px;font-size:13px;color:var(--ink3);display:flex;justify-content:space-between}
+.badge{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;font-weight:bold;color:#fff}
